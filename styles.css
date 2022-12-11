@@ -1,0 +1,172 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: white;
+    font-size: 60px;
+    font-family: 'Harry Potter', sans-serif;
+    cursor: pointer;
+}
+
+.contenido {
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(images/img-fundohp.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu {
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu ul li::after {
+    background: #817b29;
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.menu ul li:hover::after {
+    width: 100%;
+}
+
+.texto-bienvenida {
+    margin: 180px auto 10px;
+    text-align: center;
+    color: white;
+}
+
+.texto-lechuza {
+    margin: 80px auto 10px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.texto-bienvenida h1 {
+    font-size: 70px;
+    margin-top: 8px;
+}
+
+.divButton {
+    margin: 0px auto 10px;
+    text-align: center;
+}
+
+.continuar {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #817b28;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.continuar:hover {
+    transition: .4s linear;
+    background-color: #817b29;
+    font-size: 20px;
+}
+
+.item {
+    height: 500px;
+    background: linear-gradient(#dde09d, #d4dc48, #dde09d);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.gry {
+    width: 80px;
+    height: 102px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.terreneitor {
+    width: 150px;
+    height: 113px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.harryp {
+    width: 100px;
+    height: 82px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.parrafo {
+    width: 400px;
+}
+
+.uno {
+    color: #000;
+    font-size: 25px;
+    line-break: 80px;
+    font-family: 'Harry Potter', sans-serif;
+    text-align: center;
+}
+
+.dos {
+    color: #000;
+    font-size: 22px;
+    line-break: 80px;
+    font-family: 'Harry Potter', sans-serif;
+    text-align: center;
+}
+
+.tres {
+    color: #000;
+    font-size: 18px;
+    line-break: 80px;
+    font-family: 'Harry Potter', sans-serif;
+    text-align: center;
+}
+
+.cuatro {
+    margin-top: 20px;
+    color: #000;
+    font-size: 18px;
+    line-break: 80px;
+    font-family: 'Harry Potter', sans-serif;
+    text-align: center;
+}
